@@ -1,0 +1,62 @@
+{
+  "best_model": "KNN",
+  "results": {
+    "Logistic Regression": {
+      "cv_f1_mean": 0.8323,
+      "cv_f1_std": 0.0075,
+      "test_accuracy": 0.8381,
+      "test_precision": 0.8569,
+      "test_recall": 0.8119,
+      "test_f1": 0.8338,
+      "test_roc_auc": 0.9228,
+      "confusion_matrix": [
+        [
+          988,
+          155
+        ],
+        [
+          215,
+          928
+        ]
+      ]
+    },
+    "KNN": {
+      "cv_f1_mean": 0.877,
+      "cv_f1_std": 0.0062,
+      "test_accuracy": 0.8784,
+      "test_precision": 0.8791,
+      "test_recall": 0.8775,
+      "test_f1": 0.8783,
+      "test_roc_auc": 0.9456,
+      "confusion_matrix": [
+        [
+          1005,
+          138
+        ],
+        [
+          140,
+          1003
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "cv_f1_mean": 0.8617,
+      "cv_f1_std": 0.0029,
+      "test_accuracy": 0.864,
+      "test_precision": 0.8649,
+      "test_recall": 0.8626,
+      "test_f1": 0.8638,
+      "test_roc_auc": 0.8657,
+      "confusion_matrix": [
+        [
+          989,
+          154
+        ],
+        [
+          157,
+          986
+        ]
+      ]
+    }
+  }
+}
