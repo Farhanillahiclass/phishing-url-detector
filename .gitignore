@@ -18,3 +18,13 @@ venv/
 paper/
 presentation/
 data/*.csv
+# Guidance / submission material — never push
+paper/
+presentation/
+VIVA_AND_SUBMISSION_GUIDE.md
+guidance/
+notes/
+*.docx
+*.pptx
+*.pdf
+data/*.csv
